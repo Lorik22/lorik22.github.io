@@ -1,7 +1,7 @@
 <html>
 <title>Upload Seite</title>
 <head>
-<center><big><b>Iphone 5s Upload-Seite</b></center></big>
+<center><img src="Uploadtitle1.png" alt="Uploadtitle" style="width:300px;height:150px;"></center>
 <style>
 html {
 background-color: #D3D3D3
@@ -34,18 +34,42 @@ li a:hover:not(.upload) {
     background-color: #4CAF50;
 }
 </style>
-
-</head>
-<body>
-
 <ul>
   <li><a class="active" href="index.html">Startseite</a></li>
   <li><a class="upload" href="upload.html">Hochalden</a></li>
   <li><a class="kontakt" href="kontakt.html">Support</a></li>
   <li><a href="#download">Herunterladen</a></li>
 </ul>
+</head>
+<body>
+<div>
 <br><center>Hier kannst du von deinem Apple-Iphone 5s ganz einfach Bilder, Musik oder sonstige Dateien Hochladen.</br></center>
 <center>So entlasstest du deinen Speicher und kannst ueberall auf der Welt auf deine Daten zugreifen</center>
+		<link href="http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700" rel='stylesheet' />
+		<link href="assets/css/style.css" rel="stylesheet" />
+		<form id="upload" method="post" action="upload.php" enctype="multipart/form-data">
+			<div id="drop">
+				Dateien einfuegen
+
+				<a>Auswaehlen</a>
+				<input type="file" name="upl" multiple />
+			</div>
+
+			<ul>
+			</ul>
+
+		</form>
+        </footer>
+        
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script src="assets/js/jquery.knob.js"></script>
+		<script src="assets/js/jquery.ui.widget.js"></script>
+		<script src="assets/js/jquery.iframe-transport.js"></script>
+		<script src="assets/js/jquery.fileupload.js"></script>
+		<script src="assets/js/script.js"></script>
+        <script src="http://cdn.tutorialzine.com/misc/enhance/v1.js" async></script>
+		</div>
+
 </body>
 <footer>
 </footer>
